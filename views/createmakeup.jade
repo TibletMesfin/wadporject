@@ -1,0 +1,17 @@
+extends layout
+block content
+    .row1
+      h1 Create Products Page
+       .grid-container 
+        .item
+          form(ref='uploadForm', method='post', enctype='multipart/form-data')
+           fieldset
+            label(for="name") Item Name:
+            input(name="name", type="text", placeholder="Enter product name")
+            label(for="brand") Your Brand:
+            input(name="brand", type="text", placeholder="Enter product brand")
+            label(for="image") Your Image:
+            input(name="image", type="text", placeholder="Enter product Image")
+            label(for="price") Item Price:
+            input(name="price", type="text", placeholder="Enter product Price")
+            button.button(type="submit") Create Products

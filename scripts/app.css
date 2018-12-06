@@ -1,0 +1,501 @@
+  body {
+      background-color: #ffe6e6;
+      background-image: url("/brush1.jpg");
+      text-align: center;
+      min-height: 900px;
+      /* we will remove this later */
+      }
+      
+      
+      .logiIm {
+      width: 60%;
+      }
+      
+      
+      .imhold {
+      text-align: center;
+      width: 20%;
+      margin-left: auto;
+      margin-right: auto;
+      float: left;
+      }
+      
+      
+      .navhold {
+     
+      text-align: center;
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      float: left;
+      margin-bottom: 10px;
+      }
+      
+      
+      .holder {
+      text-align: center;
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      }
+      
+      
+      /* Add a black background color to the top navigation */
+      .topnav {
+      background-color:	#FFB6C1;
+      background-image:url("footer.jpg");
+      background-repeat: repeat;
+      overflow: auto;
+      }
+      
+      
+      /* Style the links inside the navigation bar */
+      .topnav a {
+      float: left;
+      color: #000000;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+      font-size: 20px;
+      }
+      
+      
+      /* Change the color of links on hover */
+      .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+      }
+      
+      
+      /* Add a color to the active/current link */
+      .topnav a.active {
+      background-color: #4CAF50;
+      color: white;
+      }
+      
+      
+      .row {
+      background-color: #555;
+      background-image: url("/brush1.jpg");
+      background-repeat:no-repeat;
+      background-size:100% 100%;
+      text-align: center;
+      min-height: 900px;
+      display: inline-block;
+      width: 100%;
+      }
+      
+      
+       .row3 {
+      background-color: #555;
+      background-image: url("/background.jpg");
+      background-repeat:repeat;
+      background-size:80% 35%;
+      text-align: center;
+      min-height: 900px;
+      display: inline-block;
+      width: 100%;
+      }
+      
+      .holder {
+      text-align: center;
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      }
+      
+      
+      .large {
+      width: 30%;
+      background-image: url('/eye.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      float: left;
+      padding: 5px;
+      margin-left: 50px;
+      height: 500px;
+      }
+      
+      .large:hover {
+        background-image: url('eye1.jpg');
+      }
+      
+      
+      .large h1 {
+      margin-bottom: 2px;
+      font-size: 87px;
+      color: #ffffff;
+      }
+      
+      
+      .large h2 {
+      margin-top: 2px;
+      margin-bottom: 2px;
+      font-size: 87px;
+      color: #ffffff;
+      }
+      
+      
+      .normal {
+      width: 30%;
+      background-image: url('/lip.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      float: left;
+      padding: 5px;
+      height: 500px;
+      margin-left: 10px;
+      margin-bottom: 10px;
+      }
+       .normal:hover {
+        background-image: url('lip1.jpg');
+      }
+      
+      .normal h1 {
+      margin-bottom: 2px;
+      font-size: 87px;
+      color: #ffffff;
+      }
+      
+      
+      .normal h2 {
+      margin-top: 2px;
+      margin-bottom: 2px;
+      font-size: 87px;
+      color: #ffffff;
+      }
+      
+  
+      .normal2 {
+      width: 30%;
+      background-image: url('/face.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      float: left;
+      padding: 5px;
+      height: 500px;
+      margin-left: 10px;
+      margin-bottom: 10px;
+      }
+  
+     .normal2:hover {
+        background-image: url('face1.jpg');
+      }
+  
+      .normal2 h1 {
+      margin-bottom: 2px;
+      font-size: 87px;
+      color: #ffffff;
+      }
+      
+      
+      .normal2 h2 {
+      margin-top: 2px;
+      margin-bottom: 2px;
+      font-size: 87px;
+      color: #ffffff;
+      }
+      
+      
+       
+      .normal3 {
+      width: 45%;
+      background-image: url('/tool.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      float: right;
+      padding: 5px;
+      height: 500px;
+      margin-left: 10px;
+      margin-bottom: 10px;
+      }
+      
+      
+      .normal3 h2 {
+      margin-top: 2px;
+      margin-bottom: 2px;
+      font-size: 87px;
+      color: #ffffff;
+      }
+             
+      .normal4 {
+      width: 45%;
+      background-image: url('/bag.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      float: left;
+      padding: 5px;
+      height: 500px;
+      margin-left: 10px;
+      margin-bottom: 10px;
+      }
+      
+      .normal4 #there{
+        display:none;
+      }
+      
+      /* Style the footer */
+      .footer {
+      background-color:	#FFB6C1;
+      background-image:url("footer2.jpg");
+      background-repeat: repeat;
+      padding: 120px;
+      text-align: center;
+      }
+      .section{
+        
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+      text-align:center;
+      }
+      ul{list-style:none;
+      margin:0;
+      padding:0;
+      } 
+      li{display:inline}
+      ul li img{
+      height:50px;
+      }
+      
+      .footer p {
+      color: #ffffff;
+      }
+      /* Style for products page */
+      .grid-container{
+      display:grid;
+      align-content:center;
+      grid-template-columns:auto auto auto;
+      grid-gap:20px;
+      padding:10px;
+      }
+      .item {
+      background-color: rgba(255, 255, 255, 0.8);
+      text-align: center;
+      padding: 5px 5px;
+      }
+      #itemsContainer {
+      width: 100%;
+      text-align: center;
+      }
+      .itemtitle {
+      display: block;
+      color: #FF1493;
+      text-align: center;
+      padding: 10px 10px;
+      text-decoration: none;
+      font-size: 25px
+      }
+      .itemp {
+      display: block;
+      color: #FF1493;
+      text-align: center;
+      padding: 4px 6px;
+      text-decoration: none;
+      font-size: 16px
+      }
+      .pimage {
+      width: 30% 30%;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      }
+      .cart {
+      color: #FF69B4;
+      font-family:Georgia;
+      font-size: 20px;
+      ;
+      }
+      .button {
+      background-color: #FF69B4;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      }
+      #itemsContainer h2 {
+      display: block;
+      color: #555;
+      text-align: justify;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 20px
+      }
+      #itemsContainer h1 {
+      display: block;
+      color: #555;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      }
+      .itemhols {
+      margin: 10px;
+      display: inline-block;
+      width: 100%;
+      min-height: 30px;
+      background-color: #ffffff;
+      }
+      /* End Style for products page */
+      /* Style for form */
+      input[type=text], select {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      }
+      input[type=submit] {
+      width: 100%;
+      background-color: #4CAF50;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      }
+      input[type=submit]:hover {
+      background-color: #45a049;
+      }
+      .formHold {
+      border-radius: 5px;
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 20px;
+      width: 90%;
+      }
+      .row1{
+      background-color: #555;
+      background-image: url("/background.jpg");
+      background-repeat: no-repeat;
+      background-size:105% 120%;
+      text-align: center;
+      min-height: 900px;
+      color:  #FF1493;
+      }
+      .row2{
+      background-color: #555;
+      background-image: url("/background.jpg");
+      background-repeat: repeat;
+      background-size:100% 100%;
+      text-align: center;
+      min-height: 900px;
+      color:  #FF1493;
+      }
+      
+    
+      
+      #dog{
+          color:	#FFB6C1;
+        text-align: center;
+          display:none;
+      }
+      
+      #cat{
+        color:	#FFB6C1;
+        text-align: center;
+        display:none;
+      }
+    #callout{
+      color:#FFB6C1;
+    }
+  
+    #wrapper{
+      background-image:url("brush1.jpg");
+      background-repeat: repeat;
+      background-size:50% 60%;
+    }
+    
+
+
+.center{
+  color:	#FFB6C1;
+}
+
+.row4{
+  color:	#FF1493;
+  background-image:url("background.jpg");
+  background-size: 100% 150%;
+}
+
+
+.row5{
+  color:	#FF1493;
+  background-image:url("background.jpg");
+  background-size: 100% 150%;
+}
+
+
+.row6{
+  color:	#FF1493;
+  background-image:url("background.jpg");
+  background-size: 100% 150%;
+}
+
+#show
+ {
+ background-color: #FF69B4;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+   
+ }
+      
+      
+#show1
+ {
+ background-color: #FF69B4;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+   
+ }
+ 
+ #hide1
+ {
+ background-color: #FF69B4;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+   
+ }
+ 
+  #hide
+ {
+ background-color: #FF69B4;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+   
+ }

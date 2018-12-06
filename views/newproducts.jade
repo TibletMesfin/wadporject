@@ -1,0 +1,15 @@
+extends layout
+block content
+  .newproducuts
+    .row3
+      .grid-container 
+     
+        each row in res1
+         .item 
+           h1.itemtitle #{row.Name}
+           img.pimage(src='#{row.Image}', alt='#{row.Name}')
+           p.itemp  Cost:  €#{row.Price}
+           p.itemp Brand: #{row.Brand}
+           a.button(href="/editmakeup/#{row.Id}") Edit 
+           a.button(href="/show/#{row.Id}") Show 
+           a.button(href="/products/#{row.Id}") Delete 

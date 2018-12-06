@@ -1,0 +1,18 @@
+extends layout
+block content
+    .row5
+      h1 Here is the page for further contact
+        h2 Hope You Had a Great Shopping experience!
+        .grid-container 
+        .item
+          form(method="post")
+           fieldset
+            label(for="name") Your Name:
+            input(name="name", type="text", placeholder="PLease enter your name")
+            label(for="email") Your Email:
+            input(name="email", type="text", placeholder="Please enter your email address")
+            label(for="Comment") Your Comment:
+            input(name="Comment", type="text", placeholder="Please enter your feedback")
+            label(for="choice") Your Choice:
+            input(name="choice", type="text", placeholder="Do you prefer call, text or email to receive our contact?")
+            button.button(type="submit") Submit!

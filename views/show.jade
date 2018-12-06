@@ -1,0 +1,13 @@
+extends layout
+block content
+    .row2
+      .grid-container 
+     
+        each row in res1
+         .item 
+           h1.itemtitle #{row.Name}
+           img.pimage(src='../#{row.Image}', alt='#{row.Name}')
+           p.itemp Id: #{row.Id}
+           p.itemp  Cost: €#{row.Price}
+           p.itemp Brand: #{row.Brand}
+           a.button(href="/products/#{row.Id}") Delete 

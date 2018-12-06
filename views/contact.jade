@@ -1,0 +1,18 @@
+extends layout
+block content
+    .row4
+      h1 Here is The Contact Page!
+      h2 You can contact us in any way you want!
+       .grid-container 
+     
+        each contacts in contact
+         .item 
+           p Contact Id: #{contacts.id}
+           p Contact Name: #{contacts.name}
+           p Contact Email: #{contacts.email}
+           p Comment : #{contacts.Comment}
+           p Choice : #{contacts.choice}
+           a.button(href="/deletecontact/#{contacts.id}") Delete 
+           a.button(href="/editcontact/#{contacts.id}") Edit 
+           
+ 

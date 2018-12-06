@@ -1,0 +1,72 @@
+doctype html
+html
+  head
+    meta(charset='UTF=8')
+    title Make Up
+    link(rel='stylesheet', href='../app.css', type='text/css')
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js')
+ body
+    .header
+      .imhold
+        img#poster.logiIm(alt='lo', src='/fox.png')
+      .navhold
+        .topnav
+          a(href='/') Home
+          a(href='/newproducts') Products
+          a(href='/createproduct') Add Product
+          a(href='/contact') Contact 
+          a(href='/contactus') Create Contact 
+          a(href='/aboutus') About Us
+block content
+
+.footer
+    .section
+          p Connect with us 
+          ul
+            li
+              a(href=' https://twitter.com/search?q=nail%20me&src=typd')
+                img(src='twitter.png', alt='pic')
+            li
+              a(href='https://zh-cn.facebook.com/nailmehk/')
+                img(src='fb.png', alt='pic')
+            li
+              a(href='  https://www.yelp.com/biz/post-nail-spa-fairfield-3')
+                img(src='images.png', alt='pic')
+            li
+              a(href='https://www.snapchat.com/')
+                img(src='sn.png', alt='pic')
+    p1(style='text-align:center;padding:0px')
+    center copyright-NCI Make up shop 2018
+    
+  script.
+  $(document).ready(function(){
+  $("#flip").click(function(){
+  $("#there").show(2000);
+  });
+   });
+   $(document).ready(function(){
+  $("#show").click(function(){
+  $("#dog").show(2000);
+  });
+   });
+   
+    $(document).ready(function(){
+  $("#show1").click(function(){
+  $("#cat").slideDown(2000);
+  });
+   });
+   
+      $(document).ready(function(){
+  $("#hide").click(function(){
+  $("#dog").hide(2000);
+  });
+   });
+   
+      $(document).ready(function(){
+  $("#hide1").click(function(){
+  $("#cat").fadeOut(2000);
+  });
+   });
+   
+  
+  

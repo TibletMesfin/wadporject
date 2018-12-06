@@ -1,0 +1,18 @@
+extends layout
+block content
+    .row7
+      h1 Edit Make up Page
+       .grid-container 
+        .item
+         each row in res1
+          form(method="post")
+           fieldset
+            label(for="name") Makeup Name:
+            input(name="name", type="text", value="#{row.Name}")
+            label(for="price") Make up Price:
+            input(name="price", type="text", value="#{row.Price}")
+            label(for="image") Make up Image:
+            input(name="image", type="text", value="#{row.Image}")
+            label(for="brand") Make up Price:
+            input(name="brand", type="text", value="#{row.Brand}")
+            button.button(type="submit") Edit
