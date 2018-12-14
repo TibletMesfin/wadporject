@@ -1,12 +1,5 @@
 [
      {
-          "name": "Emily",
-          "Comment": "Amazing",
-          "id": 1,
-          "email": "maderuemily@gmail.com",
-          "choice": "Email"
-     },
-     {
           "name": "Frank",
           "Comment": "Good!",
           "id": 2,

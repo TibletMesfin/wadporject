@@ -8,7 +8,7 @@ html
  body
     .header
       .imhold
-        img#poster.logiIm(alt='lo', src='/fox.png')
+        img#poster.logiIm(alt='lo', src='/lip8.jpg')
       .navhold
         .topnav
           a(href='/') Home
@@ -17,6 +17,7 @@ html
           a(href='/contact') Contact 
           a(href='/contactus') Create Contact 
           a(href='/aboutus') About Us
+          a(href='/upload') Upload
 block content
 
 .footer
@@ -67,6 +68,15 @@ block content
   $("#cat").fadeOut(2000);
   });
    });
+ 
+  $(document).ready(function(){
+  $("#more").click(function(){
+  $("#therest").show(2000);
+  });
+   });
    
-  
-  
+    $(document).ready(function(){
+  $("#more").click(function(){
+  $("#therest").slideDown(2000);
+  });
+   });

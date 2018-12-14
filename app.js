@@ -28,7 +28,10 @@ var contact = require("./models/contactstore.json") // Allow access to contact j
 // ***** Define the database connection **** // 
 
 const db = mysql.createConnection({
-
+ host: 'den1.mysql6.gear.host',
+ user: 'frank',
+ password: 'Uj60?m4Y6ZA_',
+ database: 'frank'
   
 });
 
@@ -342,7 +345,34 @@ app.post('/editcontact/:id', function(req, res){
 });
 
 
+/// *********************** UPLOADER ***************************** ////
 
+app.get('/upload', function(req, res) { // Call a get request when somebody visits the main url
+    res.render('upload', {root:VIEWS});   // Sending a response which is just a string.
+ 
+        
+});
+
+
+
+
+app.post('/upload', function(req, res) {
+  if (!req.files)
+    return res.status(400).send('No files were uploaded.');
+ 
+  // The name of the input field (i.e. "sampleFile") is used to retrieve the uploaded file
+  let sampleFile = req.files.sampleFile;
+  filename = sampleFile.name;
+  // Use the mv() method to place the file somewhere on your server
+  sampleFile.mv('./images/' + filename, function(err) {
+    if (err)
+      return res.status(500).send(err);
+ console.log("Here is the image " + req.files.sampleFile)
+    res.redirect('/');
+  });
+});
+
+//////// ******************* UPLOADER END ************************** ///
 
 
 // Set up the location that the application runs on (The server)

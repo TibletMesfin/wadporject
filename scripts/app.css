@@ -8,7 +8,8 @@
       
       
       .logiIm {
-      width: 60%;
+      width: 25%;
+     
       }
       
       
@@ -217,6 +218,13 @@
       font-size: 87px;
       color: #ffffff;
       }
+      
+     #therest{
+        display:none;
+       color:	#4F33FF;
+        text-align: center;
+        font-size: 30px;
+      }
              
       .normal4 {
       width: 45%;
@@ -232,6 +240,10 @@
       
       .normal4 #there{
         display:none;
+         color:	#4F33FF;
+        text-align: center;
+        font-size: 30px;
+        
       }
       
       /* Style the footer */
@@ -301,12 +313,7 @@
       margin-right: auto;
       display: block;
       }
-      .cart {
-      color: #FF69B4;
-      font-family:Georgia;
-      font-size: 20px;
-      ;
-      }
+    
       .button {
       background-color: #FF69B4;
       border: none;
@@ -362,9 +369,7 @@
       border-radius: 4px;
       cursor: pointer;
       }
-      input[type=submit]:hover {
-      background-color: #45a049;
-      }
+    
       .formHold {
       border-radius: 5px;
       background-color: rgba(255, 255, 255, 0.8);
@@ -499,3 +504,45 @@
       cursor: pointer;
    
  }
+ 
+ .row7{
+  color:	#FF1493;
+  background-image:url("background.jpg");
+  background-size: 100% 150%;
+ }
+ 
+  #btn2{
+     color: #26004d;
+        text-align: center;
+  
+ }
+ 
+   input[type=submit] {
+      background-color:  #d9b3ff;
+     padding: 50px;
+      width: 90%;
+  }
+      
+   input[type=submit]:hover {
+      background-color: #ffffcc;
+  }
+  
+  #btn1{
+    color: #26004d;
+    text-align: center;
+  }
+  
+  #btn2{
+    color: #26004d;
+    text-align: center;
+  }
+  #uploadForm{
+   
+    padding: 20%;
+  }
+  
+    input[type=file] {
+      background-color:  #e6ccff;
+     padding: 50px;
+      width: 50%;
+      }
